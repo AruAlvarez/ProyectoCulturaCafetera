@@ -1,0 +1,41 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px;
+    
+
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    width: 700px;
+    justify-content: space-around;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.header nav-item {
+    display: flex;
+}
+
+.header img {
+    width: 360px;
+}
+
+a {
+    color: #3f1f01;
+    text-decoration: none;
+
+}
+
+.container-fluid {
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+}

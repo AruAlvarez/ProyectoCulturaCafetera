@@ -1,0 +1,67 @@
+@import "./utilidades/reset";
+
+@import "./secciones/header";
+@import "./secciones/main-index";
+@import "./secciones/footer";
+
+
+
+
+
+
+
+/* ESTRATEGIA MOBILE LAST max-with */
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #d6baa0;
+    padding-block: 50px;
+    align-items: flex-start;
+    
+}
+
+.footer img {
+    width: 200px;
+
+}
+.footer ul{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+list-style-type: none;
+}
+
+
+a {
+    color: #3f1f01;
+    text-decoration: none;
+    
+}
+
+.footer img{
+    width: 250px;
+ }
+
+
+
+/* MEDIA QUERY */
+
+@media(max-width:500px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "foto-1"
+            "foto-2"
+            "foto-3"
+            "foto-4"
+            "moliendas moliendas"
+            "carta carta"
+            }
+}
+
+
+
+/* ESTILOS FOOTER */
+
