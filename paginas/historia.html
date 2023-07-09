@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Historia del café</title>
 </head>
 
-<>
     <header class="header">
         <a href="../index.html"><img src="../recursos/Logo png (1).png" alt="logo"></a>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -41,9 +42,10 @@
         </nav>
     </header>
 
-    <main>
-        <img src="../recursos/historia_imagen_dibujo.jpg" alt="Ilustracion antigua personas preparando y tomando cafe">
-        <h1>HISTORIA DEL CAFÉ</h1>
+    <main class="main-historia">
+        <div class="banner-historia"><img src="../recursos/historia_imagen_dibujo.jpg" alt="Ilustracion antigua personas preparando y tomando cafe"></div>
+        <h1>Historia del Café</h1>
+        <br>
         <p>El café goza de una enorme popularidad y es uno de los cultivos con más historia en el mundo. Los árabes
             fueron los primeros en descubrir las virtudes y las posibilidades nutritivas de esta bebida alrededor del
             siglo XV, por eso se creyó durante mucho tiempo que la planta era de origen árabe.
@@ -77,35 +79,47 @@
             variedad robusta con la salvedad de Kenia, Tanzania y Camerún, que por su ubicación posibilitan el cultivo
             de la especie arábiga</p>
     </main>
-    <footer>
-        <ul>
-            <li>NAVEGACIÓN</li>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./historia.html">Historia</a></li>
-            <li><a href="./elaboracion.html">Elaboración</a></li>
-            <li><a href="./mundo.html">El café en el Mundo</a></li>
-            <li><a href="./recetas.html">Recetario</a></li>
-        </ul>
-        <ul>
-            <li>Suscribite a nuestro NEWSLETTER</li>
-            <li>
-                <td>
-                    <form action="#" method="get" enctype="text/plain">
-                        <input type="email" placeholder="Direccion de e-mail">
-                        <input type="sumbit" value="Enviar">
-                    </form>
-                </td>
-            </li>
-        </ul>
-        <ul>
-            <li>Encontranos</li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li><a href="../index.html"><img src="../recursos/Cultura Cafetera.png" alt="logo"></a></li>
-            </li>
-        </ul>
+    <footer class="footer">
+        <div class="navegacion">
+            <ul>
+                <li>|NAVEGACIÓN</li>
+                <br>
+                <br>
+                <li><a href="../index.html"></a>Home</li>
+                <li><a href="./historia.html">Historia</a></li>
+                <li><a href="./elaboracion.html">Elaboración</a></li>
+                <li><a href="./mundo.html">El café en el Mundo</a></li>
+                <li><a href="./recetas.html">Recetas</a></li>
+            </ul>
+        </div>
+
+        <div class="newsletter">
+            <p>Recibí nuestro NEWSLETTER</p>
+            <form action="#" method="get" enctype="text/plain">
+                <input type="email" placeholder="Direccion de e-mail">
+                <input type="button" value="Enviar">
+            </form>
+        </div>
+
+        <div class="redes">
+            <ul>
+                <li>|ENCONTRANOS</li>
+                <br>
+                <br>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Twitter</li>
+            </ul>
+        </div>
+
+        <div class="logo">
+            <a href="#"><img src="./recursos/Logo png (1).png" alt="logo"></a>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
